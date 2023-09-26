@@ -50,5 +50,5 @@ server.delete('/videos/:id', async (request, reply) => {
 
 //Inicia o servidor para escutar chamadas http na porta 3333
 server.listen({
-    port: 3333,
+    port: process.env.PORT ?? 3333,
 })

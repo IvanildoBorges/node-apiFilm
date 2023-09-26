@@ -1,0 +1,28 @@
+### criar video
+POST http://localhost:3333/videos
+Content-Type: application/json
+
+{
+    "title": "Video engraçado",
+    "description": "Video onde tudo começa",
+    "duration": 180
+}
+
+### listar os videos
+GET http://localhost:3333/videos
+
+### listar os videos com busca personalizada
+GET http://localhost:3333/videos?search=engraçado
+
+### Alterar um video
+PUT http://localhost:3333/videos/cole_aqui_o_id_do_video
+Content-Type: application/json
+
+{
+    "title": "Video 02",
+    "description": "Video onde tudo começa",
+    "duration": 180
+}
+
+### Deletar um video
+DELETE http://localhost:3333/videos/cole_aqui_o_id_do_video

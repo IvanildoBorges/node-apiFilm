@@ -30,6 +30,6 @@ Aplicação de uma API de um streaming de video em NodeJS com Fastify
 
     npm run db
 
-3 - Execute o projeto
+6 - Execute o projeto
 
     npm run dev

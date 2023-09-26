@@ -35,3 +35,5 @@ Aplicação de uma API de um streaming de video em NodeJS com Fastify
 7 - Execute o projeto
 
     npm run dev
+
+8 - Use o arquivo routes.http para testar as rotas localmente

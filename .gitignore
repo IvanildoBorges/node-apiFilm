@@ -1,0 +1,6 @@
+#pastas
+node_modules
+
+# arquivos
+.env
+package-lock.json

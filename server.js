@@ -1,7 +1,14 @@
-import { createServer } from 'node:http'
+import { fastify } from 'fastify'
 
-const server = createServer(() => {
-    console.log('Hello World!');
+//Servidor
+const server = fastify()
+
+//rotas
+server.get("/", () => {
+    console.log("Hello World!");
 })
 
-server.listen(3333)
+//Inicia o servidor para escutar chamadas http na porta 3333
+server.listen({
+    port: 3333,
+})

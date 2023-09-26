@@ -26,10 +26,12 @@ Aplicação de uma API de um streaming de video em NodeJS com Fastify
     PGUSER='postgres'
     PGPASSWORD='sua_senha_do_banco_postgres'
 
-5 - Execute o comando para criar a tabela videos:
+5 - Instale o plugin DOTENV no seu VSCode
+
+6 - Execute o comando para criar a tabela videos:
 
     npm run db
 
-6 - Execute o projeto
+7 - Execute o projeto
 
     npm run dev
